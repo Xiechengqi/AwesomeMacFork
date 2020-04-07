@@ -1,4 +1,6 @@
-![logo](./docs/logo.jpg)
+<div align=center>
+<img src="./docs/logo.jpg">
+</div>
 
 # Awsome Mac
 
