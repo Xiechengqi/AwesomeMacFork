@@ -1,4 +1,4 @@
-![logo](./doc/logo.jpg)
+![logo](./docs/logo.jpg)
 
 # Awsome Mac
 
