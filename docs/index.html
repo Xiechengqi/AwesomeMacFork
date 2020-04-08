@@ -8,6 +8,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- 黑暗模式 -->
+  <link rel="stylesheet" href="//unpkg.com/docsify-dark-mode@0.6.1/dist/style.css" />
   <style>
     .sidebar, body {
         background-color: #fff4e6;
@@ -20,10 +22,16 @@
     window.$docsify = {
       name: 'Awsome Mac',
       repo: 'https://github.com/Xiechengqi/AwesomeMacFork',
-      basePath: 'https://raw.githubusercontent.com/jaywcjlove/awesome-mac/master/',
+      basePath: 'https://gitee.com/Xiechengqi/awesome-mac/raw/master/',
       homepage: 'https://raw.githubusercontent.com/jaywcjlove/awesome-mac/master/README-zh.md'
+    },
+    darkMode: {
+        light: {
+            toggleBtnBg: '#42b983'
+        }
     }
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
